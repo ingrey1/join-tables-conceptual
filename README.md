@@ -27,6 +27,9 @@ The Docusaurus developers recommend using the 'yarn' package manager.
 
 ## Local Development
 
+
+After installing 'npm' or 'yarn', run one of the following commands to open the document sample in the default browser on your machine.
+
 ```
 $ yarn start
 ```
@@ -36,5 +39,3 @@ OR
 ```
 $ npm start
 ```
-
-After installing 'npm' or 'yarn', run one of the following commands to open the document sample in the default browser on your machine.
