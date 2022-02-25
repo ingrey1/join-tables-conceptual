@@ -11,7 +11,9 @@ When setting up a relational SQL database, an important task is identifying whic
 
 Suppose that the goal is to setup a database for a wolf preserve, in order to track the health and success of a cave wolf repopulation effort. The domain is the forest where the wolves live. This domain contains many different entities: trees, bushes, caves, bacteria, molecules, wolves, rabbits. However, not all of these entities are relevant for the practical concerns that will determine which tables go in the wildlife database. For example, a 'bush' could be a relevant entity for a database aimed at cataloging plant life, but it's not important for the wolf database.
 
-Here are a couple potentially relevant entities: 'wolf' and 'cave'. The wolves need to be tracked, so the database will have a Wolf table. These wolves live in caves, so the database should also have a Cave table.  
+Here are a couple potentially relevant entities: 'wolf' and 'cave'. The wolves need to be tracked, so the database will have a Wolf table. These wolves live in caves, so the database should also have a Cave table. 
+
+---
 
 **Wolf**
 
@@ -26,8 +28,10 @@ Here are a couple potentially relevant entities: 'wolf' and 'cave'. The wolves n
 
 | id | size      | location | mineral   |
 |----|-----------|----------|-----------|
-| 1  | Nighteyes | 6        | Granite   |
-| 2  | Halla     | 3        | Limestone |
-| 3  | Claw      | 10       | Mud       |
+| 1  | 800       | 78       | Granite   |
+| 2  | 600       | 43       | Limestone |
+| 3  | 400       | 62       | Mud       |
+
+---
 
 The next section will examine the 'wolf' and 'cave' entity relationship, and consider how that relationship can be realized in a hypothetical wildlife database with Wolf and Cave tables.  
