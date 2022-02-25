@@ -39,3 +39,5 @@ Capturing this relationship requires adding the Wolf 'id' as a column to the Rab
 ---
 
 Now that the one-to-many relationship is realized via the foreign key 'wolf_id' in the Rabbit table, it's possible to find out which wolf a rabbit lives with by examining the 'wolf_id': Floppy and Hoppy live with a wolf which has the primary key of 1, while Nappy doesn't live with any wolf. 
+
+The next section will illustrate the many-to-many entity relationship type. 

@@ -22,7 +22,7 @@ sidebar_position: 1
 
 ---
 
-The kind of relationship between two entities depends on the situation. Assume that in the cave-wolf domain, the wolves never share caves, and only ever inhabit one cave at a time. In this case, a 'wolf' and a 'cave' stand in a **one-to-one** relationship: every wolf has one cave, and each cave belongs to one wolf. 
+The kind of relationship between two entities depends on the situation. Assume that in the cave-wolf domain, the wolves never share caves, and only ever inhabit one cave at a time. In this case, a 'wolf' and a 'cave' stand in a **one-to-one** relationship: a wolf has one cave, and each cave belongs to one wolf. 
 
 To capture this relationship between the Wolf and Cave tables, we can add a new column to the Wolf table: 'cave_id'.
 
