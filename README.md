@@ -1,41 +1,40 @@
-# Website
+# SQL Join Tables: A Conceptual Document Sample
+
+## Introduction
+
+This conceptual document introduces entity-domain relationships, and explains how many-to-many entity-domain relationships can be modeled in SQL databases through the mechanism of a join table.
+
+
+## Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Installation
+
+If you are interested in running the document sample locally, install either [yarn](https://classic.yarnpkg.com/lang/en/docs/install) or [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) on your machine. Then run one of the following commands via the terminal from the 'sql-join-tables' root directory.
 
 ```
-$ yarn
+/sql-join-tables $ yarn
 ```
 
-### Local Development
+OR
+
+```
+/sql-join-tables $ npm install
+```
+
+The Docusaurus developers recommend using the 'yarn' package manager. 
+
+## Local Development
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+OR
 
 ```
-$ yarn build
+$ npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+After installing 'npm' or 'yarn', run one of the following commands to open the document sample in the default browser on your machine.
