@@ -14,6 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   organizationName: 'ingrey1', // Usually your GitHub org/user name.
   projectName: 'sql-join-tables', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
