@@ -25,7 +25,7 @@ custom_edit_url: null
 
 The cave wolves have to drink when they're thirsty. Fortunately, the forest has many sources of water, including: lakes and rivers. Because the cave wolf database will track drinking behavior, it's fine to introduce a Water table. A single wolf may frequent multiple water sources, and often a lake or river will have multiple wolves drinking from it on any given occasion. In this situation, a 'wolf' has many 'water' sources, and each 'water' source has many a 'wolf' drinking from it. This is known as a **Many-To-Many** relationship.
 
-When SQL tables have a **One-To-One** or **One-To-Many** relationship, adding a **foreign key** on one of the tables is sufficient to realize the relationship in the database. However, for **Many-To-Many** relationships between two tables, it's best practice to introduce a third table, often called a **Join Table**.
+When SQL tables have a **one-to-one** or **one-to-many** relationship, adding a **foreign key** on one of the tables is sufficient to realize the relationship in the database. However, for **Many-To-Many** relationships between two tables, it's best practice to introduce a third table, often called a **Join Table**.
 
 ---
 
