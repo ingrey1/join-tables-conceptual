@@ -9,13 +9,13 @@ custom_edit_url: null
 
 **Wolf**
 
-| id | name      | age | weight | cave_id |
+| id (PK) | name      | age | weight | cave_id (FK) |
 |----|-----------|-----|--------|---------| 
 | 1  | Nighteyes | 6   | 200    | 4       |
 
 **Rabbit**
 
-| id | name   | age |
+| id (PK) | name   | age |
 |----|--------|-----|
 | 1  | Floppy | 3   |
 | 2  | Hoppy  | 22  |
@@ -31,7 +31,7 @@ Capturing this relationship requires adding the Wolf 'id' as a column to the Rab
 
 **Rabbit**
 
-| id | name   | age | wolf_id |
+| id (PK) | name   | age | wolf_id (FK) |
 |----|--------|-----|---------|
 | 1  | Floppy | 3   | 1       |
 | 2  | Hoppy  | 22  | 1       |
@@ -39,6 +39,6 @@ Capturing this relationship requires adding the Wolf 'id' as a column to the Rab
 
 ---
 
-Now that the one-to-many relationship is realized via the foreign key 'wolf_id' in the Rabbit table, it's possible to find out which wolf a rabbit lives with by examining the 'wolf_id': Floppy and Hoppy live with a wolf which has the primary key of 1, while Nappy doesn't live with any wolf. 
+Now that the **One-To-Many** relationship is realized via the foreign key 'wolf_id' in the Rabbit table, it's possible to find out which wolf a rabbit lives with by examining the 'wolf_id': Floppy and Hoppy live with a wolf which has the primary key of 1, while Nappy doesn't live with any wolf. 
 
-The next section will illustrate the many-to-many entity relationship type. 
+The next section will illustrate the **many-to-many** entity relationship type. 
