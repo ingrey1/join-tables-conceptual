@@ -4,10 +4,12 @@
 
 This conceptual document introduces entity-domain relationships, and explains how many-to-many entity-domain relationships can be modeled in SQL databases through the mechanism of a join table.
 
+To view the site: https://ingrey1.github.io/join-tables-conceptual/
+
 
 ## Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator. 
 
 ## Installation
 
