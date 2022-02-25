@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Click me to read about SQL Join Tables
+            Click Me
           </Link>
         </div>
       </div>
