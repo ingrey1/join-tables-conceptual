@@ -41,7 +41,7 @@ When SQL tables have a **one-to-one** or **one-to-many** relationship, adding a 
 
 ---
 
-Each row of the WolfWater **Join Table** represents an occasion on which a 'wolf' drank from a 'water' source. For example, consider the 'wolf' named Nighteyes who has the 'id' of 1. It can be seen that there are three rows with a 'wolf_id' of 1. This means there were three separate occasions on which Nighteyes drank from a 'water' source. On "2000-12-28" and "2000-12-29", Nighteyes drank from the 'water' source with 'id' 1, and on "2000-12-30", he drank from the 'water' source with 'id' 2.
+Each row of the WolfWater **Join Table** represents an occasion on which a 'wolf' drank from a 'water' source. For example, consider the 'wolf' named Nighteyes who has the 'id' of 1. It can be seen that there are three rows with a 'wolf_id' of 1. This means there were three separate occasions on which Nighteyes drank from a 'water' source. On "2000-12-28" and "2000-12-29", Nighteyes drank from 'water_id'  1, and on "2000-12-30", he drank from the 'water_id' 2.
 
 Now that the **Many-To-Many** relationship between 'wolf' and 'water' source has been established via the **Join Table** WolfWater, this table can be used to answer questions about drinking behavior via SQL queries.  
 
