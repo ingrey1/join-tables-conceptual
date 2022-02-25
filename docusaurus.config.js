@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Conceptual Document Example',
   tagline: 'SQL Join Tables',
-  url: 'https://ingrey1.github.io/join-tables-conceptual/',
+  url: 'https://ingrey1.github.io',
   baseUrl: '/join-tables-conceptual/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
