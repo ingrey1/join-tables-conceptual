@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Conceptual Document Example',
   tagline: 'SQL Join Tables',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://ingrey1.github.io/join-tables-conceptual/',
+  baseUrl: '/join-tables-conceptual/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   organizationName: 'ingrey1', // Usually your GitHub org/user name.
